@@ -1,0 +1,12 @@
+﻿/*dark*/
+#footer-widgets {
+  background-color: #256ca0; }
+  #footer-widgets .footer-widget-title {
+    color: white; }
+
+#footer {
+  background-color: #1f557e;
+  text-align: left;
+  color: white;
+  border: none; }
+

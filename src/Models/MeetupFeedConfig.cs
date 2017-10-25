@@ -7,7 +7,6 @@ namespace dotnetweb.web.Models
 {
     public class MeetupFeedConfig
     {
-
         public string FeedFormat { get; set; } = "http://dotnetsocial.cloudapp.net/api/meetup?count={0}&expiry={1}";
         public int NumberToGet { get; set; } = 10;
         public int ExpiryDays { get; set; } = 60;

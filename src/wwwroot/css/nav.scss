@@ -1,0 +1,54 @@
+﻿@import "color.scss";
+
+.navbar {
+    padding: 15px 0;
+    //background-color: #68217A;
+    background: rgb(37, 108, 160);
+    //box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1),0px 2px 8px 0px rgba(0, 0, 0, 0.1),0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-pad {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+ul.navbar-nav {
+    li {
+        &.active {
+            a, a:hover {
+                background: rgb(37, 108, 160) !important;
+                border-bottom:2px solid $yellow;
+              //  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+                //border-radius: 5px;
+            }
+        }
+
+        a {
+            padding: 10px 20px !important;
+            letter-spacing: .5px;
+
+            &:focus, &:hover, &:active {
+                background: transparent !important;
+                //box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.30);
+                border-bottom:2px solid $yellow;
+            }
+        }
+
+        &.dropdown {
+            a {
+                &:after {
+                    top: 12px;
+                    right: 5px;
+                }
+            }
+
+            ul.dropdown-menu {
+                border: none;
+                background: rgb(37, 108, 160);
+                box-shadow: 0 2px 8px 0 rgba(0,0,0, 0.30);
+                border-radius: 5px;
+            }
+        }
+    }
+}

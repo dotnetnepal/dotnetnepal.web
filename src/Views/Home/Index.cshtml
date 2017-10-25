@@ -1,8 +1,7 @@
 ﻿@{
-    ViewData["Title"] = ".NET web";
+    ViewData["Title"] = ".NET Nepal";
 }
-
-<section class="wrap-hero margin-bottom">
+<section class="wrap-hero">
     <div id="carousel-home-hero" class="carousel carousel-hero slide" data-ride="carousel" data-interval="9000" data-pause="hover">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -13,240 +12,397 @@
         </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-             <!-- carousel: Get started with .NET -->
-            <div class="item active">
+            <!-- carousel: Get started with .NET -->
+            <div class="item active" id="item1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-md-push-6">
-                            <div class="carousel-object">
-                                    <div class="clearfix"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-md-pull-6">
-                            <div class="carousel-caption">
-                 
+                        @*<div class="col-md-6 col-md-push-6">
+                                <div class="carousel-object">
+                                        <div class="clearfix"></div>
+                                </div>
+                            </div>*@
+                        <div class="col-md-12">
+                            <div class="carousel-caption" id="cap1">
+                                <div class="carouse-title">
+                                    <h3 class="animated fadeInDown">dotNetNepal</h3>
+                                    <h4 class="animated fadeInDown">dotConf v1</h4>
+                                </div>
+                                <div class="carouse-body">
+                                    <h5 class="animated-2x fadeInDown">
+                                        Hold on <span class="dot"> dot  </span> is coming.
+                                    </h5>
+                                    <div class="timer animated-3x fadeInDown">
+                                    </div>
+                                    <div class="nav-button animated-3x fadeInDown">
+                                        <button class="btn btn-primary btn-lg tn-btn">Event Detail</button>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div> <!--row -->
                 </div> <!-- container -->
             </div> <!-- item -->
             <!-- carousel: Code Conversations -->
-            <div class="item">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-push-6">
-                    
-                        </div>
-                        <div class="col-md-6 col-md-pull-6">
-                            <div class="carousel-caption">
-                                <h1 class="animated fadeInDownBig carousel-title"><span>Code Conversations</span></h1>
-                                <ul class="list-unstyled carousel-list">
-                                      <li class=""><i class="fa fa-angle-right animated fadeIn animation-delay-9"></i><span class="animated fadeInRightBig animation-delay-9"><strong>Code focused!</strong> No presentations</span></li>
-                                </ul>
-                         
+            @*<div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-push-6">
+
                             </div>
-                        </div>
-                    </div> <!--row -->
-                </div> <!-- container -->
-            </div> <!-- item -->
-            <!-- carousel: Community -->          
-            <div class="item">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-push-6">
-                            <div class="">
-                                <img src="/theme/img/carousel/community-map.png" alt="" class="img-responsive animated fadeInDown animation-delay-15">
+                            <div class="col-md-6 col-md-pull-6">
+                                <div class="carousel-caption">
+                                    <h1 class="animated fadeInDownBig carousel-title"><span>Code Conversations</span></h1>
+                                    <ul class="list-unstyled carousel-list">
+                                          <li class=""><i class="fa fa-angle-right animated fadeIn animation-delay-9"></i><span class="animated fadeInRightBig animation-delay-9"><strong>Code focused!</strong> No presentations</span></li>
+                                    </ul>
+
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-md-pull-6">
-                            <div class="carousel-caption">
-        
-                  
+                        </div> <!--row -->
+                    </div> <!-- container -->
+                </div> <!-- item -->
+                <!-- carousel: Community -->
+                <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-push-6">
+                                <div class="">
+                                    <img src="/theme/img/carousel/community-map.png" alt="" class="img-responsive animated fadeInDown animation-delay-15">
+                                </div>
                             </div>
-                        </div>
-                    </div> <!--row -->
-                </div> <!-- container -->
-            </div> <!-- item -->
-            <!-- carousel: .NET Conf -->
-            <div class="item">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-push-6">
-                            <div>
-                                <img class="img-responsive animated fadeInRight animation-delay-15" alt="" src="/theme/img/carousel/dotNetConf-Banner-800x470.png">
+                            <div class="col-md-6 col-md-pull-6">
+                                <div class="carousel-caption">
+
+
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-md-pull-6">
-                            <div class="carousel-caption">
-                                
+                        </div> <!--row -->
+                    </div> <!-- container -->
+                </div> <!-- item -->
+                <!-- carousel: .NET Conf -->
+                <div class="item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-md-push-6">
+                                <div>
+                                    <img class="img-responsive animated fadeInRight animation-delay-15" alt="" src="/theme/img/carousel/dotNetConf-Banner-800x470.png">
+                                </div>
                             </div>
-                        </div>
-                    </div> <!--row -->
-                </div> <!-- container -->
-            </div> <!-- item -->
+                            <div class="col-md-6 col-md-pull-6">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                        </div> <!--row -->
+                    </div> <!-- container -->
+                </div> <!-- item -->*@
         </div> <!-- carousel-inner -->
         <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-home-hero" data-slide="prev">
+        <a class="left carousel-control animated-slow fadeInLeft" href="#carousel-home-hero" data-slide="prev">
             <i class="fa fa-angle-left"></i>
         </a>
-        <a class="right carousel-control" href="#carousel-home-hero" data-slide="next">
+        <a class="right carousel-control animated-slow fadeInRight" href="#carousel-home-hero" data-slide="next">
             <i class="fa fa-angle-right"></i>
         </a>
     </div>
 </section> <!-- carousel -->
-<div class="container">
-    <section class="margin-bottom">
+<section class="" id="whowe">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h2 class="right-line">What is the .NET Nepal?</h2>
-            </div>
-            <div class="col-md-6">
-                <div>
-                    <div class="text-icon wow fadeInUp">
-                        <span class="icon-ar icon-ar-lg"><i class="fa fa-tablet"></i></span>
-                        <div class="text-icon-content">
-                            <h3 class="no-margin">An Independent Non-Profit Organization</h3>
-                            <p>The .NET Foundation is a 503(c).6 non-profit organization set up to support an innovative, commercially-friendly, open source ecosystem around an open source .NET platform.</p>
-                        </div>
-                    </div>
+
+            <div class="row whowe-content">
+                <div class="col-md-12">
+                    <h2 class="sec-title">Who We Are <br> </h2>
+                    <hr class="sec-hr" />
                 </div>
-                <div>
-                    <div class="text-icon wow fadeInUp">
-                        <span class="icon-ar icon-ar-lg"><i class="fa fa-cloud"></i></span>
-                        <div class="text-icon-content">
-                            <h3 class="no-margin">.NET Foundation Projects</h3>
-                            <p>The .NET Foundation has a growing list of projects that benefit through this open source foundation with commercially friendly IP, copyright terms and licenses.</p>
+                <div class="col-md-12">
+                    <div>
+                        <div class="whowe-detail">
+                            <div class="animated slideInDown">
+                                A dotNet Community based in Nepal.
+                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                            </div>
+                            <a href="#!" class="btn btn-primary btn-lg tn-btn animated-2x slideInDown">Know More</a>
+
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="text-icon wow fadeInUp">
-                        <span class="icon-ar icon-ar-lg"><i class="fa fa-desktop"></i></span>
-                        <div class="text-icon-content">
-                            <h3 class="no-margin">Supporting the .NET Developer Community</h3>
-                            <p>The .NET Foundation works with Microsoft and the broader industry to increase the exposure of open source projects in the .NET community and the .NET Foundation. The .NET Foundation provides access to these resources to projects and looks to promote the activities of our communities.</p>
+                    @*<div>
+                            <div class="text-icon wow fadeInUp">
+                                <span class="icon-ar icon-ar-lg"><i class="fa fa-cloud"></i></span>
+                                <div class="text-icon-content">
+                                    <h3 class="no-margin">.NET Foundation Projects</h3>
+                                    <p>The .NET Foundation has a growing list of projects that benefit through this open source foundation with commercially friendly IP, copyright terms and licenses.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div>
+                            <div class="text-icon wow fadeInUp">
+                                <span class="icon-ar icon-ar-lg"><i class="fa fa-desktop"></i></span>
+                                <div class="text-icon-content">
+                                    <h3 class="no-margin">Supporting the .NET Developer Community</h3>
+                                    <p>The .NET Foundation works with Microsoft and the broader industry to increase the exposure of open source projects in the .NET community and the .NET Foundation. The .NET Foundation provides access to these resources to projects and looks to promote the activities of our communities.</p>
+                                </div>
+                            </div>
+                        </div>*@
+
                 </div>
 
+            </div> <!-- row -->
+
+        </div>
+    </div>
+</section>
+ <!-- container -->
+
+<section id="whatwe">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="sec-title wow fadeInDown">What we do </h2>
+                <hr class="sec-hr wow fadeInDown" />
             </div>
-       
-        </div> <!-- row -->
-    </section>
-</div> <!-- container -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <h2>News</h2>
-            <div class="media">
-                <a class="pull-left" href="#">
-                <img class="media-object" src="holder.js/90x90?bg=68217A&text=.NET Blog">
-                </a>
-                <div class="media-body">
-                <h4 class="media-heading"><a href="https://blogs.msdn.microsoft.com/dotnet/2017/09/28\net-framework-4-7-1-runtime-and-compiler-features/">.NET Framework 4.7.1 Runtime and Compiler Features</a></h4>
-                <p>This post describes the new Runtime, Compiler and Base Class Library (BCL) improvements in the .NET Framework 4.7.1.</p>
+            <div class="col-md-12">
+                <div class="whatwe-content">
+                    <div class="descript wow fadeInDown">
+                        <div class="descriptbox">
+                            <div class="learn">
+                            </div>
+                            <p>Learn</p>
+                        </div>
+                        <div class="descriptbox">
+                            <div class="share">
+                            </div>
+                            <p>Share</p>
+                        </div>
+                        <hr />
+                        <div class="descriptbox">
+                            <div class="collab">
+                            </div>
+
+                            <p>Collab</p>
+                        </div>
+                        <hr />
+                        <div class="descriptbox">
+                            <div class="repeat">
+                            </div>
+                            <p>Repeat</p>
+                        </div>
+                    </div>
+                    <div class="text-center margin-top-20">
+                        <a href="#!" class="btn btn-primary btn-lg tn-btn wow fadeInDown">More</a>
+                    </div>
                 </div>
-            </div>
-            <div class="media">
-                <a class="pull-left" href="#">
-                <img class="media-object" src="holder.js/90x90?bg=68217A&text=Scott Hanselman">
-                </a>
-                <div class="media-body">
-                <h4 class="media-heading"><a href="https://www.hanselman.com/blog/TabsVsSpacesAPeacefulResolutionWithEditorConfigInVisualStudioPlusNETExtensions.aspx">Tabs vs Spaces - A peaceful resolution with EditorConfig in Visual Studio. Plus .NET Extensions!</a></h4>
-                <p>The culture wars continue. The country is divided with no end in sight. Tabs or spaces? There's even an insane (IMHO) assertion that the spaces people make more money.</p>
-                </div>
-            </div>
-            <div class="media">
-                <a class="pull-left" href="#">
-                <img class="media-object" src="holder.js/90x90?bg=68217A&text=.NET Rocks">
-                </a>
-                <div class="media-body">
-                <h4 class="media-heading"><a href="https://www.dotnetrocks.com/default.aspx?ShowNum=1480">Social Presentations with Mark Rendle</a></h4>
-                <p>How would you make presentations better? While at ProgNet in London, Carl and Richard talked to Mark Rendle about his efforts to build a tool to make presentations more social - he calls it Shtik!</p>
-                </div>
+               
             </div>
         </div>
-        <div class="col-md-6">
-            <h2>Events</h2>
-            <div class="media">
-                <a class="pull-left" href="#">
-                <img class="media-object" src="holder.js/70x70?bg=68217A&text=Oct \n 2">
-                </a>
-                <div class="media-body">
-                <h4 class="media-heading"><a href="https://www.meetup.com\nET-Developers-Association-Eastside/events/242572893/">Productivity with the Microsoft Graph</a></h4>
-                <p>.NET Developers Association - Eastside</p>
+    </div>
+
+</section>
+
+@*<section id="newsblog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="nb-title">News</h2>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="holder.js/90x90?bg=68217A&text=.NET Blog">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://blogs.msdn.microsoft.com/dotnet/2017/09/28\net-framework-4-7-1-runtime-and-compiler-features/">.NET Framework 4.7.1 Runtime and Compiler Features</a></h4>
+                        <p>This post describes the new Runtime, Compiler and Base Class Library (BCL) improvements in the .NET Framework 4.7.1.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="holder.js/90x90?bg=68217A&text=Scott Hanselman">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://www.hanselman.com/blog/TabsVsSpacesAPeacefulResolutionWithEditorConfigInVisualStudioPlusNETExtensions.aspx">Tabs vs Spaces - A peaceful resolution with EditorConfig in Visual Studio. Plus .NET Extensions!</a></h4>
+                        <p>The culture wars continue. The country is divided with no end in sight. Tabs or spaces? There's even an insane (IMHO) assertion that the spaces people make more money.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="holder.js/90x90?bg=68217A&text=.NET Rocks">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://www.dotnetrocks.com/default.aspx?ShowNum=1480">Social Presentations with Mark Rendle</a></h4>
+                        <p>How would you make presentations better? While at ProgNet in London, Carl and Richard talked to Mark Rendle about his efforts to build a tool to make presentations more social - he calls it Shtik!</p>
+                    </div>
                 </div>
             </div>
-            <div class="media">
-                <a class="pull-left" href="#">
-                <img class="media-object" src="holder.js/70x70?bg=68217A&text=Oct \n 3">
-                </a>
-                <div class="media-body">
-                <h4 class="media-heading"><a href="https://www.meetup.com/SeattleMobileDevelopers/events/243725503/">Seattle - .NET Everywhere with .NET Standard 2.0</a></h4>
-                <p>Seattle Mobile .NET Developers Group</p>
+            <div class="col-md-6">
+                <h2 class="nb-title">Events</h2>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="holder.js/70x70?bg=68217A&text=Oct \n 2">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://www.meetup.com\nET-Developers-Association-Eastside/events/242572893/">Productivity with the Microsoft Graph</a></h4>
+                        <p>.NET Developers Association - Eastside</p>
+                    </div>
                 </div>
-            </div>
-            <div class="media">
-                <a class="pull-left" href="#">
-                <img class="media-object" src="holder.js/70x70?bg=68217A&text=Oct \n 4">
-                </a>
-                <div class="media-body">
-                <h4 class="media-heading"><a href="https://www.meetup.com/MMADNYC/events/242360948/">Partner Event: TechBash 2017 @@ Pocono Manor, PA (registration link inside)</a></h4>
-                <p>Microsoft Makers and App Developers</p>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="holder.js/70x70?bg=68217A&text=Oct \n 3">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://www.meetup.com/SeattleMobileDevelopers/events/243725503/">Seattle - .NET Everywhere with .NET Standard 2.0</a></h4>
+                        <p>Seattle Mobile .NET Developers Group</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="holder.js/70x70?bg=68217A&text=Oct \n 4">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="https://www.meetup.com/MMADNYC/events/242360948/">Partner Event: TechBash 2017 @@ Pocono Manor, PA (registration link inside)</a></h4>
+                        <p>Microsoft Makers and App Developers</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container">
+</section>*@
+
+<section id="supporters">
+    <div class="container">
+        <div class="sup-content">
+            <div class="content-title">
+                <h2 class="sec-title">Our Supporters<br> </h2>
+                <hr class="sec-hr" />
+            </div>
+            <div class="content-body">
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter3.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter2.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter3.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter2.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter3.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter2.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter3.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter2.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="~/images/backgrounds/supporter3.png" alt="" />
+                    <div class="name">
+                        Supporter 1
+                    </div>
+                </a>
+              
+            </div>
+           
+        </div>
+       
+    </div>
+    
+   </section>
+
+<section id="joinus">
+    <div class="container">
+        <div class="content">
+            <div class="wow fadeInDown animation-delay-3">
+                Like our work ? 
+            </div>
+            <div>
+                <button class="btn btn-primary tn-btn tn-btn-pad wow fadeInDown">Join in</button>
+            </div>
+        </div>
+
+       
+        
+    </div>
+</section>
+@*<div class="container">
     <div class="row is-table-row">
         <div class="col-md-12">
-            <h2 class="right-line">Recent Posts</h2>
+            <h2 class="">Recent Posts</h2>
         </div>
     </div>
     <div class="row masonry-container">
         @await Component.InvokeAsync("RecentPosts", new { viewName = "RecentPostsSpotlight", numberToShow = 7 })
     </div>
     <hr />
-</div>
+</div>*@
 @*<div class="container">
-    <section class="css-section">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="right-line">A large and growing ecosystem</h2>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="content-box box-default wow zoomInUp animation-delay-8">
-                    <h4 id="count-repositories" class="content-box-title counter">515</h4>
-                    <i class="fa fa-4x fa-github primary-color"></i>
-                    <p class="margin-top-20 no-margin-bottom lead small-caps">repositories</p>
+        <section class="css-section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="right-line">A large and growing ecosystem</h2>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content-box box-default wow zoomInUp animation-delay-8">
+                        <h4 id="count-repositories" class="content-box-title counter">515</h4>
+                        <i class="fa fa-4x fa-github primary-color"></i>
+                        <p class="margin-top-20 no-margin-bottom lead small-caps">repositories</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content-box box-default wow zoomInUp animation-delay-2">
+                        <h4 id="count-projects" class="content-box-title counter">55</h4>
+                        <i class="fa fa-4x fa-file-code-o primary-color"></i>
+                        <p class="margin-top-20 no-margin-bottom lead small-caps">member projects</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content-box box-default wow zoomInUp animation-delay-4">
+                        <h4 id="count-developers" class="content-box-title counter">25,000</h4>
+                        <i class="fa fa-4x fa-group primary-color"></i>
+                        <p class="margin-top-20 no-margin-bottom lead small-caps">developers contributing</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="content-box box-default wow zoomInUp animation-delay-6">
+                        <h4 id="count-companies" class="content-box-title counter">1700</h4>
+                        <i class="fa fa-4x fa-building primary-color"></i>
+                        <p class="margin-top-20 no-margin-bottom lead small-caps">companies contributing</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="content-box box-default wow zoomInUp animation-delay-2">
-                    <h4 id="count-projects" class="content-box-title counter">55</h4>
-                    <i class="fa fa-4x fa-file-code-o primary-color"></i>
-                    <p class="margin-top-20 no-margin-bottom lead small-caps">member projects</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="content-box box-default wow zoomInUp animation-delay-4">
-                    <h4 id="count-developers" class="content-box-title counter">25,000</h4>
-                    <i class="fa fa-4x fa-group primary-color"></i>
-                    <p class="margin-top-20 no-margin-bottom lead small-caps">developers contributing</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="content-box box-default wow zoomInUp animation-delay-6">
-                    <h4 id="count-companies" class="content-box-title counter">1700</h4>
-                    <i class="fa fa-4x fa-building primary-color"></i>
-                    <p class="margin-top-20 no-margin-bottom lead small-caps">companies contributing</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>*@ <!-- container -->
-<div class="container">
+        </section>
+    </div>*@ <!-- container -->
+@*<div class="container">
     <section class="margin-top">
         <h2 class="section-title">Why .NET?</h2>
         <div class="row">
@@ -284,7 +440,7 @@
             </div>
         </div>
     </section>
-</div> <!-- container -->
+</div>*@ <!-- container -->
 <partial name="_CookieConsent" />
 
 @section Scripts {

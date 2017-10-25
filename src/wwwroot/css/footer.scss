@@ -1,0 +1,14 @@
+﻿@import "color.scss";
+
+#footer-widgets{
+    background-color:$blue;
+    .footer-widget-title{
+        color:white;
+    }
+}
+#footer{
+    background-color:$blue-dark;
+    text-align:left;
+    color:white;
+    border:none;
+}

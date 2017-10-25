@@ -1,0 +1,62 @@
+﻿@import "color.scss";
+
+.wrap-hero {
+    height:100%;
+    .carousel-hero {
+        background: $blue;
+    }
+    .carousel-hero{
+        .carousel-control{
+            background:none;
+            border:none;
+            top:40%;
+            &.left{
+                right:auto;
+                left:20px;
+            }
+        }
+    }
+}
+.carousel-inner{
+
+}
+#item1{
+    display:flex;
+    align-items:center;
+}
+#cap1 {
+   text-align:center;
+}
+.carouse-title {
+
+    h3,h4 {
+        color: $yellow;
+        font-weight: 500;
+        font-size:7rem;
+        letter-spacing:1px;
+    }
+    h4{
+        font-size:5rem;
+    }
+}
+.carouse-body {
+    display: block;
+    h5{
+        color:#f7f5f5;
+    }
+    .timer {
+        padding: 15px;
+        margin-top:30px;
+        font-size: 5rem;
+        span {
+            font-size:6rem;
+        }
+    }
+    .nav-button{
+        margin-top:20px;
+    }
+}
+
+.dot{
+   color:$yellow;
+}

@@ -1,0 +1,45 @@
+﻿/*dark*/
+.wrap-hero {
+  height: 100%; }
+  .wrap-hero .carousel-hero {
+    background: #256ca0; }
+  .wrap-hero .carousel-hero .carousel-control {
+    background: none;
+    border: none;
+    top: 40%; }
+    .wrap-hero .carousel-hero .carousel-control.left {
+      right: auto;
+      left: 20px; }
+
+#item1 {
+  display: flex;
+  align-items: center; }
+
+#cap1 {
+  text-align: center; }
+
+.carouse-title h3, .carouse-title h4 {
+  color: #EAF900;
+  font-weight: 500;
+  font-size: 7rem;
+  letter-spacing: 1px; }
+
+.carouse-title h4 {
+  font-size: 5rem; }
+
+.carouse-body {
+  display: block; }
+  .carouse-body h5 {
+    color: #f7f5f5; }
+  .carouse-body .timer {
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 5rem; }
+    .carouse-body .timer span {
+      font-size: 6rem; }
+  .carouse-body .nav-button {
+    margin-top: 20px; }
+
+.dot {
+  color: #EAF900; }
+

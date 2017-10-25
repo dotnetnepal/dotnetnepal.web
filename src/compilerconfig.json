@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/nav.css",
+    "inputFile": "wwwroot/css/nav.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/carousel.css",
+    "inputFile": "wwwroot/css/carousel.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/home.css",
+    "inputFile": "wwwroot/css/home.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/footer.css",
+    "inputFile": "wwwroot/css/footer.scss"
+  }
+]
