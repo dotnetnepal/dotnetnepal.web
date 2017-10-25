@@ -66,6 +66,10 @@
             display: flex;
             justify-content:center;
             align-items:center;
+            &:before{
+                content:'';
+                border:1px solid red;
+            }
             .descriptbox {
                 height: 100px;
                 width: 100px;

@@ -59,6 +59,9 @@
     display: flex;
     justify-content: center;
     align-items: center; }
+    #whatwe .whatwe-content .descript:before {
+      content: '';
+      border: 1px solid red; }
     #whatwe .whatwe-content .descript .descriptbox {
       height: 100px;
       width: 100px;
