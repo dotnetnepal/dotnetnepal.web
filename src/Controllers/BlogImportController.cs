@@ -12,7 +12,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace dotnetweb.web.Controllers
 {
-    [Authorize(Policy = "AdminPolicy")]
     public class BlogImportController : Controller
     {
       
